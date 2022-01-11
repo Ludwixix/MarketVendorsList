@@ -1,28 +1,18 @@
-# deakin-suppliers
-
+# Suppliers List
 ## Summary
 
-This webpart displays supplier data in an intuitive and user friendly format. 
+This webpart displays supplier data which is pulled form a SharePoint list. It then processes the data, seperating it into supplier types which are displayed on the left hand column.
 
-The suppliers are categorized into types.
-
-When a type is selected from the left hand column, all market vendors that fall under that type are displayed.
+When a supplier type is selected from the left hand column, all market vendors that fall under that type are displayed.
 
 Clicking on a market vendor will then display the supplier details.
 
-This data is pulled from a SharePoint list which can be easily modified and updated.
 
 
-![SuppliersImg](https://i.ibb.co/TPDYhLw/Picture2.png))
+![SuppliersImg](https://i.ibb.co/XWCKCbG/ezgif-2-ae3b0447f8.gif))
+
 
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/npm/v/@microsoft/sp-component-base/latest?color=green)
-
-## Applies to
-
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
