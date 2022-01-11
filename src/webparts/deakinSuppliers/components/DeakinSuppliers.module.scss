@@ -1,0 +1,79 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.deakinSuppliers {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding-top: 15px;
+  border-right: 1px solid rgba(234, 234, 234, 0.78);
+  span{
+    background-color: rgba(234, 234, 234, 0.78);
+    margin: 2px;
+    border: 1px solid rgba(234, 234, 234, 0.78);
+    border-radius: 5px;
+    // font-weight: 600;
+  }:hover {
+    cursor: pointer;
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    color: seashell;
+  }
+}
+.supplierList{
+  padding-left: 10px;
+  font-weight: 600;
+  width: 100%;
+  border-bottom: 1px solid rgba(234, 234, 234, 0.78);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  justify-content: space-between;
+  // padding-top: 10px;
+  .supplierDetails {
+    height: 50%;
+    border: 1px solid rgba(234, 234, 234, 0.78);
+  }
+  .detailsRow {
+    display: flex;
+    padding: 10px;
+  }
+  .supplierSelection {
+    height: 50%;
+    overflow: auto;
+    border: 1px solid rgba(234, 234, 234, 0.78);
+    padding: 10px;
+  }
+  .detailsTitle{
+    color: black;
+    // padding-top: 10px
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  .supplierTypes {
+    padding: 5px;
+  }
+}
+
+.headings{
+  font-weight: 600;
+  overflow:hidden;
+}
+
+.vendorRow{
+  padding-top:5px;
+  :hover{
+    cursor: pointer;
+    background-color: rgba(234, 234, 234, 0.78);
+    // color:seashell;
+  }
+}

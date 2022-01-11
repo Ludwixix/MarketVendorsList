@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "deakin-suppliers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/deakinSuppliers/DeakinSuppliersWebPart.js",
+          "manifest": "./src/webparts/deakinSuppliers/DeakinSuppliersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DeakinSuppliersWebPartStrings": "lib/webparts/deakinSuppliers/loc/{locale}.js"
+  }
+}
